@@ -44,7 +44,7 @@ LEDTask ──任务通知──→ OLEDTask
 
 ## 二、串口反馈格式
 
-串口**接收**使用作业规定的 6 字节数据包（`AA RUN DIR STEP_L STEP_H CHECK`），此处不再展开。下面是我自行定义的**上行反馈格式**：
+串口**接收**使用作业规定的 6 字节数据包（`AA RUN DIR STEP_L STEP_H CHECK`）。下面是我自行定义的**上行反馈格式**：
 
 ```
 STATE=RUN,DIR=FWD,STEP=300,LED=1\r\n
